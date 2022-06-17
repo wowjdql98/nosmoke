@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: "나눔고딕", "맑은고딕", sans-serif;
+}
+
+.app {
+    border: 2px solid black;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.day {
+    font-size: 3em;
+    color: red;
+}
